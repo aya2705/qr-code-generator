@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite NG Modern", cursive;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfeabf;
+  height: 100vh;
+  
+}
+
+section{
+  background-color: #fff;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 25px rgba(0,0,0,5);
+}
+
+label{
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.input{
+  width: 308px;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 20px;  
+}
+
+.qr_code{
+  padding: 25px;
+  width: fit-content;
+  display: none;
+}
+
+button{
+  background-color:#27c527;
+  color: #fff;
+  border:1px solid  #fff;
+  border-radius: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+p{
+  display: none;
+}
